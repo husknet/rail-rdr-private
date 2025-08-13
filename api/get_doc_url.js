@@ -6,7 +6,7 @@ dotenv.config();
 
 // ✅ Modify These Directly in the Code
 const PORT = 3000;  // 🔥 Change this if needed
-const DOCUMENT_URL = "https://ascar-gourmet.shop/sage/";  // 🔥 Change this
+const DOCUMENT_URL = "https://main-bvxea6i-ss6gtfbohsbaw.ca-1.platformsh.site/";  // 🔥 Change this
 
 const app = express();
 
@@ -69,3 +69,4 @@ app.get("/api/redirect", (req, res) => {
 app.listen(PORT, () => {
     console.log(`✅ Secure URL & Redirect Service Running on Port ${PORT}`);
 });
+
